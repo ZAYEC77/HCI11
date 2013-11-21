@@ -1,0 +1,42 @@
+﻿<Window x:Class="HCI11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+
+    <Window.Resources>
+        <Storyboard x:Key="animation">
+
+            <DoubleAnimation Storyboard.TargetName="leftT" 
+                             Storyboard.TargetProperty="Angle" 
+                             RepeatBehavior="Forever"
+                             From="0" To="360" BeginTime="00:00:00.000" Duration="00:00:01.000" />
+            <DoubleAnimation Storyboard.TargetName="leftT1" 
+                             Storyboard.TargetProperty="Angle" 
+                             RepeatBehavior="Forever"
+                             From="0" To="360" BeginTime="00:00:00.000" Duration="00:00:01.000" />
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="Button.Loaded">
+            <BeginStoryboard Storyboard="{StaticResource animation}" />
+        </EventTrigger>
+    </Window.Triggers>
+
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="300" Margin="10,10,0,0" VerticalAlignment="Top" Width="497" Source="383590613.jpg" StretchDirection="DownOnly"/>
+        <Image x:Name="left" HorizontalAlignment="Left" Height="54" Margin="329,190,0,0" VerticalAlignment="Top" Width="52" Source="left.png" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup >
+                    <RotateTransform x:Name="leftT" Angle="0"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="left_Copy" HorizontalAlignment="Left" Height="54" Margin="68,190,0,0" VerticalAlignment="Top" Width="52" Source="left.png" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup >
+                    <RotateTransform x:Name="leftT1" Angle="0"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+    </Grid>
+</Window>

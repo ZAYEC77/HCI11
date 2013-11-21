@@ -1,0 +1,12 @@
+F:\Хлам 0\Study\HCI\HCI11\bin\Debug\HCI11.exe
+F:\Хлам 0\Study\HCI\HCI11\bin\Debug\HCI11.pdb
+F:\Хлам 0\Study\HCI\HCI11\obj\Debug\HCI11.csprojResolveAssemblyReference.cache
+F:\Хлам 0\Study\HCI\HCI11\obj\Debug\MainWindow.baml
+F:\Хлам 0\Study\HCI\HCI11\obj\Debug\MainWindow.g.cs
+F:\Хлам 0\Study\HCI\HCI11\obj\Debug\App.g.cs
+F:\Хлам 0\Study\HCI\HCI11\obj\Debug\HCI11_MarkupCompile.cache
+F:\Хлам 0\Study\HCI\HCI11\obj\Debug\HCI11.g.resources
+F:\Хлам 0\Study\HCI\HCI11\obj\Debug\HCI11.Properties.Resources.resources
+F:\Хлам 0\Study\HCI\HCI11\obj\Debug\HCI11.csproj.GenerateResource.Cache
+F:\Хлам 0\Study\HCI\HCI11\obj\Debug\HCI11.exe
+F:\Хлам 0\Study\HCI\HCI11\obj\Debug\HCI11.pdb
